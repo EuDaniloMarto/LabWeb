@@ -1,0 +1,30 @@
+{
+    "name": "labweb",
+    "version": "1.0.0",
+    "description": "Meus projetos com HTML/CSS e JavaScript Vanilha.",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "prepare": "husky"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/EuDaniloMarto/LabWeb.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "type": "commonjs",
+    "bugs": {
+        "url": "https://github.com/EuDaniloMarto/LabWeb/issues"
+    },
+    "homepage": "https://github.com/EuDaniloMarto/LabWeb#readme",
+    "devDependencies": {
+        "husky": "^9.1.7",
+        "lint-staged": "^16.1.2",
+        "prettier": "3.6.2"
+    },
+    "lint-staged": {
+        "**/*": "prettier --write --ignore-unknown"
+    }
+}
