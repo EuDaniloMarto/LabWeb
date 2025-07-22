@@ -1,0 +1,23 @@
+:root {
+  font: 400 calc(.725rem + .25vw)/1.2 Arial, Helvetica, sans-serif;
+}
+
+*,
+*::after,
+*::before {
+  font: inherit;
+  padding: 0;
+  margin: 0;
+}
+
+.showcase {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #d3d3d3;
+}
+
+.showcase__paragraph {
+  font-size: 3.8rem;
+}
