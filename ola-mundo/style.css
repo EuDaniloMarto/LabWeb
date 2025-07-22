@@ -1,5 +1,8 @@
 :root {
-  font: 400 calc(.725rem + .25vw)/1.2 Arial, Helvetica, sans-serif;
+  font:
+    400 calc(0.725rem + 0.25vw) / 1.2 Arial,
+    Helvetica,
+    sans-serif;
 }
 
 *,
